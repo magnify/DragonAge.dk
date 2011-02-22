@@ -1353,3 +1353,13 @@ ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
 	background-color: #000;
 	text-align: center;
 }
+
+/*
+  Paypal
+*/
+
+.node-type-paypal-page input {
+  background: 0;
+  border: 0;
+  width: auto;
+}
