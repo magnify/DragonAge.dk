@@ -1369,7 +1369,7 @@ Featured content
   height: 250px;
   overflow: hidden;
   position: relative;
-  width: 647px;
+  width: 665px;
 }
 
 .view-featured-content .views_slideshow_controls .views_slideshow_previous,
@@ -1386,7 +1386,7 @@ Featured content
   bottom: 20px;
   height: 35px;
   left: 0;
-  width: 647px;
+  width: 665px;
 }
 
 .view-featured-content .views_slideshow_singleframe_pager {
@@ -1407,7 +1407,7 @@ Featured content
 .view-featured-content .views_slideshow_slide {
   height: 225px;
   position: relative;
-  width: 647px;
+  width: 665px;
 }
 
 .view-featured-content .views_slideshow_singleframe_pager .pager-item {
