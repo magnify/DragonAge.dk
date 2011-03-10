@@ -1354,7 +1354,7 @@ ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
 	text-align: center;
 }
 
-.block input,
+#block-block-5 input,
 .node-type-paypal-page input {
   background: 0;
   border: 0;
