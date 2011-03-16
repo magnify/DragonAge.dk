@@ -1528,7 +1528,96 @@ Featured content
 */
 
 .node-type-article-with-image .content .fb-social-like-widget {
-  position: absolute;
   left: 537px;
+  position: absolute;
   top: 12px;
+}
+
+.node-type-forum .forum-post-wrapper .content .fb-social-like-widget {
+    left: 810px;
+    position: absolute;
+    top: 63px;
+}
+
+/*
+  Pager
+*/
+
+.item-list {
+  list-style: none;
+}
+
+.pager.item-list li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.pager .pager-item a,
+.pager .pager-item a:link,
+.pager .pager-item a:visited
+.pager .pager-first a,
+.pager .pager-first a:link,
+.pager .pager-first a:visited,
+.pager .pager-previous a,
+.pager .pager-previous a:link,
+.pager .pager-previous a:visited,
+.pager .pager-next a,
+.pager .pager-next a:link,
+.pager .pager-next a:visited,
+.pager .pager-last a,
+.pager .pager-last a:link,
+.pager .pager-last a:visited,
+#forum .pager li.pager-current,
+#forum-comments .pager li.pager-current {
+  border: 1px solid #0b3853;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #68a7cd !important;
+  padding: 3px 6px;
+  text-decoration: none !important;
+}
+
+.pager .pager-item a:hover,
+.pager .pager-first a:hover,
+.pager .pager-previous a:hover,
+.pager .pager-next a:hover,
+.pager .pager-last a:hover {
+  background-color: #0b3853;
+  color: #68a7cd !important;
+}
+
+#forum .pager a.active,
+#forum-comments .pager a.active,
+.item-list .pager .pager-current,
+#forum .pager a.active,
+#forum-comments .pager a.active {
+  background-color: #0b3853;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #68a7cd;
+  *margin: 0 4px 0 0;
+  padding: 4px 7px;
+  *padding: 4px 3px 4px 7px;
+}
+
+#forum .pager a:link,
+#forum .pager a:visited,
+#forum-comments .pager a:link,
+#forum-comments .pager a:visited {
+  border: 1px solid #0b3853;
+}
+
+#forum .pager a:link,
+#forum .pager a:visited,
+#forum-comments .pager a:link,
+#forum-comments .pager a:visited {
+  background: transparent;
+}
+
+.quote-msg {
+  background-color: #333333;
+  border: 1px solid #666666;
 }
