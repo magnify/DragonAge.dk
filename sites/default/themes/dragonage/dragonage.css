@@ -58,6 +58,10 @@ input:focus, textarea:focus, select:focus {
 	background: #0d0d0d url('/sites/default/themes/dragonage/gfx/LoginInputBg.png') repeat-x center bottom;
 }
 
+textarea, textarea:focus {
+	background: none;
+}
+
 #node-form input, #node-form textarea, #node-form select {
 	font-size: 90%;
 }
