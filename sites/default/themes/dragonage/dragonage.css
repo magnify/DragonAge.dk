@@ -1315,6 +1315,46 @@ ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
 	border: 1px solid #1c140d;
 }
 
+/*
+  Forum not stacked
+*/
+
+.forum-post {
+  background-color: #0a0a0a;
+  border: 1px solid #202020;
+}
+
+.forum-post-wrapper,
+.forum-post-panel-main,
+.forum-post-footer,
+.forum-post-links {
+  background-color: #0a0a0a;
+  border-color: #202020;
+}
+
+.forum-post-panel-main {
+  border-bottom: 0;
+  border-top: 0;
+  min-height: 200px;
+}
+
+/* General */
+#forum .forum-table,
+#forum .forum-topics {
+	border: 1px solid #1c140d;
+}
+
+#forum td.container {
+	background-color: #171515;
+}
+
+div.messages, div.status, div.warning, div.error {
+	background-color: #11151D;
+	background-image: url('/sites/default/themes/swtor/gfx/messages-status.png');
+	border: 1px solid #3D4964;
+	color: #fff;
+}
+
 /* Form edit */
 
 .node-type-article-with-image .filefield-element input.form-submit, .filefield-element input.form-file {
@@ -1325,8 +1365,6 @@ ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
 	float: none;
 	width: 95px !important;
 }
-
-
 
 /* Google Adsense */
 
