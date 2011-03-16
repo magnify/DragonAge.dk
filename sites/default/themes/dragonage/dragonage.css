@@ -618,11 +618,48 @@ ul.links li,
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  border: 1px solid #376b27;
+  border: 1px solid #000;
   display: inline;
 	list-style-type: none;
   margin: 5px;
   padding: 2px 8px 4px;
+}
+
+ul.links li a,
+ul.links li a:hover,
+.forum-links li a,
+.forum-links li a:hover,
+ul.links li span {
+  color: #fff;
+  font-size: 90%;
+  text-shadow: 1px 1px #376b27;
+}
+
+ul.links li.statistics_counter {
+  background: transparent;
+  border: 0;
+}
+
+ul.links li.statistics_counter a,
+ul.links li.statistics_counter a:hover,
+.forum-links li.statistics_counter a,
+.forum-links li.statistics_counter a:hover,
+ul.links li.statistics_counter span {
+  color: #999;
+  text-shadow: 0 0;
+}
+
+ul.forum-links {
+  margin: 10px 0;
+}
+
+.forum-links li {
+  margin: 5px 0;
+}
+
+.forum-post-panel-sub .author-pane .picture img {
+  background: #0a0a0a;
+  border: 1px solid #202020;
 }
 
 .preview .node /* Preview of the content before submitting new or updated content */
