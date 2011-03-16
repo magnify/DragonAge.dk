@@ -614,7 +614,7 @@ ul.links.inline {
 
 ul.links li,
 .forum-links li {
-  background: #5cb441 url('/sites/default/themes/dragonage/gfx/button-bg.gif') repeat-x;
+  background: #000 url('/sites/default/themes/dragonage/gfx/button-bg.gif') repeat-x;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -632,7 +632,7 @@ ul.links li a:hover,
 ul.links li span {
   color: #fff;
   font-size: 90%;
-  text-shadow: 1px 1px #376b27;
+  text-shadow: 1px 1px #000;
 }
 
 ul.links li.statistics_counter {
