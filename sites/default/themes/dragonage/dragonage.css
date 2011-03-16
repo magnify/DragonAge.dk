@@ -612,11 +612,17 @@ ul.links.inline {
 	padding: 15px 0 0;
 }
 
-ul.links li
-{
-	display: inline;
+ul.links li,
+.forum-links li {
+  background: #5cb441 url('/sites/default/themes/dragonage/gfx/button-bg.gif') repeat-x;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #376b27;
+  display: inline;
 	list-style-type: none;
-	padding: 0 0.5em;
+  margin: 5px;
+  padding: 2px 8px 4px;
 }
 
 .preview .node /* Preview of the content before submitting new or updated content */
@@ -1350,7 +1356,7 @@ ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
 
 div.messages, div.status, div.warning, div.error {
 	background-color: #11151D;
-	background-image: url('/sites/default/themes/swtor/gfx/messages-status.png');
+	background-image: url('/sites/default/themes/dragonage/gfx/messages-status.png');
 	border: 1px solid #3D4964;
 	color: #fff;
 }
